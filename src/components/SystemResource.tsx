@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { LayoutDashboard, Activity, ListTodo, CheckCircle, AlertCircle, Loader2, Cpu, Zap, Share2, Maximize2, RotateCw, AlertTriangle, Play } from 'lucide-react';
 import { SectionWrapper } from './ui/SectionWrapper';
+import donghailonggonImage from '../assets/donghailonggon.webp';
 
 // Mock Data
 const TASKS = [
@@ -97,7 +98,7 @@ const ProcessDashboard = () => {
               >
                 <div className="relative w-full h-full group">
                   <img 
-                    src="https://images.unsplash.com/photo-1722926323079-0836a07d2340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwb3J0cmFpdCUyMG9mJTIwYSUyMHlvdW5nJTIwcHJvZmVzc2lvbmFsJTIwbWFuJTIwd2l0aCUyMGdsYXNzZXMlMjBzdHVkaW8lMjBsaWdodGluZ3xlbnwxfHx8fDE3NjU0NDk1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" 
+                    src={donghailonggonImage} 
                     className="w-full h-full object-cover opacity-80 transition-transform duration-700 group-hover:scale-105"
                     alt="Result"
                   />
